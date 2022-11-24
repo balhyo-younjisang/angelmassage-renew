@@ -1,0 +1,55 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 9rem;
+    padding: 1rem;
+    color: teal;
+    background: #feda65;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, p {
+margin: 0;
+}
+
+span {
+    font-size: large;
+}
+
+main {
+padding: 1rem;
+height: 100%; 
+margin-top: 10rem; 
+}
+
+body {
+background: #EEE;
+}
+
+body, html {
+height: 200%;
+}
+
+* {
+box-sizing: border-box;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: teal;
+}
+
+#main-banner {
+    text-align: center;
+}
+
+.text-container, .img-container {
+    text-align: center;
+}
