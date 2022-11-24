@@ -1,13 +1,11 @@
 header {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
 
     height: 9rem;
     padding: 1rem;
-    color: teal;
-    background: #feda65;
+    background: #0C2D46;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
@@ -29,11 +27,12 @@ margin-top: 10rem;
 }
 
 body {
-background: #EEE;
+    color: white;
 }
 
 body, html {
 height: 200%;
+background-color: #0C2D46;
 }
 
 * {
@@ -43,7 +42,7 @@ box-sizing: border-box;
 a {
     list-style: none;
     text-decoration: none;
-    color: teal;
+    color: white;
 }
 
 #main-banner {
@@ -52,4 +51,6 @@ a {
 
 .text-container, .img-container {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
