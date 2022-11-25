@@ -6,8 +6,11 @@ window.onresize = function (event) {
     if (innerWidth >= 800) {
         mainbanner.src = "./img/mainBanner1.png";
         logo.src = "./img/Logo2.png"
-    } else {
+    } else if (innerWidth >= 600) {
         mainbanner.src = "./img/mainBanner2.png";
+        logo.src = "./img/Logo1.png";
+    } else {
+        mainbanner.src = "./img/mainBanner3.png";
         logo.src = "./img/Logo1.png";
     }
 }

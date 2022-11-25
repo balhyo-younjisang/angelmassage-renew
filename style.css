@@ -55,3 +55,18 @@ a {
     margin-right: auto;
 }
 
+#call {
+    background-color : #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40%;
+    border: 0;
+    border-color: #46b8da;
+    margin: 20px;
+  }
+  
+#button {
+position: fixed;
+bottom: -4px;
+right: 10px;
+}
