@@ -71,3 +71,9 @@ bottom: -4px;
 right: 10px;
 }
 
+img {
+    max-width: 100%; /* 이미지의 최대사이즈 */
+    width /***/: auto; /* only IE8 */
+    height: auto;
+    vertical-align: bottom;
+}
