@@ -3,7 +3,7 @@ const mainbanner = document.getElementById('main-banner');
 
 window.onresize = function (event) {
     let innerWidth = window.innerWidth;
-    if (innerWidth >= 800) {
+    if (innerWidth >= 1000) {
         mainbanner.src = "./img/mainBanner1.png";
         logo.src = "./img/Logo2.png"
     } else if (innerWidth >= 600) {
