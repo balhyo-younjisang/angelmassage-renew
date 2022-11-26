@@ -77,3 +77,7 @@ img {
     height: auto;
     vertical-align: bottom;
 }
+
+.img-container {
+    text-align: center;
+}
