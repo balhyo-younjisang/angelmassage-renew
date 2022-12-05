@@ -1,2 +1,3 @@
 User-agent: *
-Allow:angelkoreamassage.netlify.app/sitemap.xml
+Allow:/
+Sitemap: angelkoreamassage.netlify.app/sitemal.xml
